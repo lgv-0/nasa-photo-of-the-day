@@ -1,3 +1,8 @@
+html
+{
+  background-image: url("https://66.media.tumblr.com/b355cf787f00cd5c6439a615b6f26f6e/tumblr_inline_mlky9sYUIK1r53miq.png");
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +34,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#root, .App, .Container
+{
+  height: 100vh; /*React??*/
+}
+
+.Container
+{
+  color:white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Picture
+{
+  width: 800px;
+  height: 400px;
+}
+.Picture :not(p)
+{
+  line-height: 0.75rem;
+}
+.Picture p
+{
+  margin-top: 0px;
+}
+.Picture img
+{
+  width: 800px;
+}
+
+.clusterContainer
+{
+  margin-top: 500px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.clusterContainer h1, .clusterContainer h4
+{
+  width: 100%;
+}
+.ClusterItem
+{
+  width: 500px;
+  Height: 500px;
+}
+.ClusterItem img
+{
+  width: 400px;
+  height: 400px;
 }
